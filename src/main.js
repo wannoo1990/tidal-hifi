@@ -10,7 +10,7 @@ const {
 const { addTray, refreshTray } = require("./scripts/tray");
 const { addMenu } = require("./scripts/menu");
 const path = require("path");
-const tidalUrl = "https://listen.tidal.com";
+const tidalUrl = "http://192.168.10.34/music.html";
 const expressModule = require("./scripts/express");
 const mediaKeys = require("./constants/mediaKeys");
 const mediaInfoModule = require("./scripts/mediaInfo");
